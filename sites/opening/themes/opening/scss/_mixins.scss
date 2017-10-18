@@ -1,0 +1,52 @@
+// Mixins
+
+// To change the Bootstrap Glyphicons.
+@mixin icon($value) {
+  content: $value;
+  font-family: "Glyphicons Halflings";
+  margin-right: 10px;
+  color: $color_glyphicons;
+  font-size: 18px;
+  float: left;
+}
+
+// To general h2 titles in blocks.
+@mixin titles_h2() {
+  margin: 0px;
+  padding: 25px;
+  border-bottom: $general_border;
+  text-transform: uppercase;
+  color: $titles_block_text_color;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  background-color: $titles_block_bgcolor;
+}
+
+// General subtitles to blocks, views...
+@mixin general_subtitles() {
+  color: $general_subtitles_color;
+  font-size: $general_subtitles_font_size;
+  font-weight: bold;
+}
+
+// Reset styles in block
+@mixin block_reset_styles() {
+  border: none;
+  border-radius: 0px;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-bottom: 0px;
+}
+
+// Styles to type work element, Freelance, Contract...
+@mixin typework_element() {
+  border-radius: 3px;
+  color: $color_white;
+  text-align: center;
+  padding: 0px 7px;
+  background: $type_work_bgcolor;
+  position: relative;
+  width: 70px;
+}

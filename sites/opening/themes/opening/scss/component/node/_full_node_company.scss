@@ -1,0 +1,101 @@
+// Full node company
+.user--view-mode-full {
+  background-color: $color_white;
+  border: $general_border;
+  margin: 0px;
+  //padding-top: 15px;
+  padding-bottom: 15px;
+
+  .bs-region--main {
+    padding: 0px;
+
+    > div {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    // Companies styles
+
+    .field--type-address, .field--name-field-company-employees {
+      border-bottom: $general_border_dashed;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      height: 4em;
+      overflow: hidden;
+    }
+
+    .field--name-field-company-description {
+      overflow: hidden;
+    }
+
+    .field--label {
+      float: left;
+      width: 40%;
+    }
+
+    .field--item {
+      float: right;
+      width: 60%;
+    }
+
+    // Candidate styles
+
+    .field--name-field-candidate-photo { float: left; width: 100%; }
+
+    .field--name-field-candidate-description {
+      float: left;
+      width: 100%;
+      border-bottom: $general_border_dashed;
+      margin-top: 15px;
+      padding-bottom: 15px;
+      .field--label {
+        float: left;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      .field--item {
+        float: left;
+        width: 100%;
+      }
+    }
+
+    .field--name-field-candidate-cv {
+      overflow: hidden;
+      float: left;
+      border-bottom: $general_border_dashed;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      height: 6em;
+      width: 100%;
+      .field--label { width: 100%; }
+      .field--item {
+        width: 30%;
+        float: left;
+      }
+    }
+
+    .field--name-field-candidate-phone {
+      overflow: hidden;
+      float: left;
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      .field--label , .field--item { float: left; width: 100%; }
+    }
+
+    .field--name-username {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-bottom: 1px solid #c4c4c4;
+      color: #566266;
+      font-weight: bold;
+      text-align: center;
+      background-color: #f1f1f1;
+      h4 {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+// Form exposed (Jobs filter)
+.view-opening .view-filters {
+  padding: 0px;
+
+  form.views-exposed-form {
+    position: relative;
+
+    .form-item-country { padding-left: 5px; }
+
+    .form-actions .btn-info { display: none; }
+
+    .form-actions {
+      width: 100%;
+      .btn-default {
+        width: 100%;
+        border-radius: 0px;
+        border: 0px;
+        border-bottom: $general_border;
+        &:focus, &:active {
+          outline: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          background: $color_general_border;
+        }
+      }
+    }
+
+    option:active, option:hover {
+      outline-color: $color_red;
+      background-color: $color_black;
+    }
+
+    .form-item-title, .form-item-location {
+      background: $bg_color_filter;
+      padding: 30px;
+      width: 50%;
+      float: left;
+    }
+
+    .form-item-location {
+      padding-top: 11px;
+      label { color : $color_white; }
+    }
+
+    .form-item-title {
+      padding-top: 12px;
+      label {
+        display: block !important;
+        color : $bg_color_filter;
+      }
+    }
+
+    .form-item-title > div { width: 100%; }
+
+    .form-actions {
+      padding: 0px;
+      top: 25px;
+      right: 7px;
+    }
+
+    .form-item-sort-by {
+      width: 100%;
+      background: $titles_block_bgcolor;
+      border-bottom: $general_border;
+      border-top: $general_border;
+      position: relative;
+      height: 71px;
+      label {
+        position: absolute;
+        right: 140px;
+        text-transform: uppercase;
+      }
+      .select-wrapper {
+        position: absolute;
+        right: 30px;
+        top: 18px;
+      }
+    }
+
+    .form-item-typework {
+      width: 100%;
+      padding: 0px;
+
+      > select {
+          height: 44px;
+          border: 0;
+          display: inline-table;
+          box-shadow: none;
+          width: 100%;
+          border-radius: 0px;
+          padding-top: 13px;
+
+          > option {
+              float: left;
+              cursor: pointer;
+              background: $color_general_border;
+              border-radius: 3px;
+              color: $color_white;
+              padding: 3px 10px 3px 8px;
+              margin-right: 7px;
+              font-size: 13px;
+              display: inline-block;
+          }
+      }
+    }
+  }
+}

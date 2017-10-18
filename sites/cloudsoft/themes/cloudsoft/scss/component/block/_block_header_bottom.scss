@@ -1,0 +1,26 @@
+/*
+ *  BLOCK HEADER BOTTOM
+*/
+
+.header-container {
+  .header-buttom {
+    margin-top: 90px;
+
+     #block-header-image {
+      .field--type-image {
+        width: 100%;
+        text-align: center;
+        top: 11%;
+
+        > img {
+          width: 96%;
+          max-width: 913px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
+

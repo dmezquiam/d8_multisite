@@ -1,0 +1,87 @@
+/*
+ *  BLOCK HEADER MIDDLE
+*/
+
+$btn-width: 220px;
+$btn-margin: 5px;
+
+.header-container {
+  background: url(../images/texture.png);
+  min-height: 700px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  padding-top: 48px;
+
+  #block-socialmedialinks {
+    float: right;
+  }
+
+  #block-cloudsoftunbouncelandingpage {
+    a {
+      border-radius: 10px;
+      border-style: none;
+      color: #fff;
+      display: inline-block;
+      line-height: 54px;
+      text-align: center;
+      background: #17c4bb;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 48px;
+      font-size: 4.8rem;
+      color: #fff;
+      margin-top: 150px;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .field--label-hidden {
+      font-size: 18px;
+      font-size: 1.8rem;
+      color: #fff;
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    .block-content--type-header .group-footer {
+      text-align: center;
+
+      .field--name-field-start-my-demo {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 0px;
+          a {
+            width: $btn-width;
+            margin:  $btn-margin;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+
+      }
+
+      .field--name-field-watch-video {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 0px;
+          a {
+            width: $btn-width;
+            margin:  $btn-margin;
+            background: none;
+            box-shadow: 0 0 0 2px #fff inset;
+
+            &:hover {
+              background: none;
+              color: #17c4bb;
+              text-decoration: none;
+              box-shadow: 0 0 0 2px #17c4bb inset;
+            }
+          }
+      }
+    }
+  }
+}
+

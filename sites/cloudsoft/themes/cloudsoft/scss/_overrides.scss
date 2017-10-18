@@ -1,0 +1,136 @@
+// @todo these should be their own CSS files and only included when
+// specific Drupal libraries are used.
+@import "component/default/alert";
+@import "component/default/ajax";
+@import "component/default/field";
+@import "component/default/file";
+@import "component/default/filter";
+@import "component/default/form";
+@import "component/default/icon";
+@import "component/default/navbar";
+@import "component/default/node";
+@import "component/default/panel";
+@import "component/default/progress-bar";
+@import "component/default/table-drag";
+@import "component/default/tabs";
+@import "component/default/toolbar";
+
+// Block
+@import "component/block/block_header_middle";
+@import "component/block/block_header_bottom";
+@import "component/block/block_benefit";
+@import "component/block/block_free_trial";
+@import "component/block/block_contact";
+
+// Views
+@import "component/view/view_features";
+@import "component/view/view_price";
+@import "component/view/view_testimonials";
+
+// jQuery UI style overrides.
+@import "component/default/jquery-ui/autocomplete";
+
+// Custom
+.separator {
+  background: #cdcdcd;
+  display: inline-block;
+  height: 1px;
+  margin: 20px 0;
+  width: 100px;
+}
+
+footer {
+  background: $bg-color1;
+  padding: 50px 0;
+  p {
+    font-size: 14px;
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    float: right;
+    line-height: 33px;
+    span {
+      color: #17c4bb;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  body {
+      margin-top: 0px;
+  }
+}
+
+.fa-2x {
+  font-size: 1.3em;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 15px;
+  color: #fff;
+}
+
+.fa-facebook {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.fa-twitter {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.fa-vimeo-square {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+// End Custom
+
+ol, ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Footer.
+.footer {
+  margin-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E5E5E5;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}
+
+// Help region.
+.region-help {
+  > .glyphicon {
+    font-size: $font-size-large;
+    float: left;
+    margin: -0.05em 0.5em 0 0;
+  }
+  .block {
+    overflow: hidden;
+  }
+}
+
+
+.help-block, .control-group .help-inline {
+  color: $gray-light;
+  font-size: 12px;
+  margin: 5px 0 10px;
+  padding: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}

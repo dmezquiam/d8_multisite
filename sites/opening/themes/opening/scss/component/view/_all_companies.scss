@@ -1,0 +1,27 @@
+// All Companies view
+
+.view-display-id-page_companies {
+  background: $color_white;
+
+  .view-content {
+   overflow: hidden;
+
+    .views-row {
+      overflow: hidden;
+      border-bottom: $general_border_dashed;
+      padding: 25px;
+      .views-field-field-company-logo {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 10px;
+      }
+      .views-field-name {
+        a {
+          @include general_subtitles(); //call mixin
+          text-transform: capitalize;
+        }
+      }
+      &:last-child { border: 0px }
+    }
+  }
+}

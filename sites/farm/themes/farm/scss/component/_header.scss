@@ -1,0 +1,60 @@
+// Header styles - Main menu
+
+header {
+  height: 95px;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  z-index: 100;
+  background-image: url(../images/header.jpg);
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  -webkit-transform: translate3d(0,0,0);
+  margin: 0px;
+  border: 0px;
+  border-radius: 0px;
+
+  .navbar {
+    background: none;
+    border: none;
+    margin: 0px;
+    padding-top: 15px;
+
+    .navbar-header {
+      a.logo { margin-top: 0px; }
+      a.navbar-brand { display: none; }
+    }
+
+    .navbar-nav > li { // ul menu
+      a {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        padding: 15px 10px;
+        display: inline-block;
+        margin: 8px 15px;
+        border: 2px solid transparent;
+        line-height: 100%;
+
+        &:hover, &:focus {
+          color: #ece0ce;
+          background-color: transparent;
+        }
+      }
+
+      &:last-child a {
+        border: 2px solid #a6ce37;
+        border-radius: 3px;
+        padding: 15px 35px;
+
+        &:hover {
+          background: #a6ce37;
+          -webkit-transition: all .1s ease-out;
+        }
+      }
+    }
+  }
+}
+
+
+

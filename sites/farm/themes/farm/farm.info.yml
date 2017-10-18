@@ -1,0 +1,31 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Farm theme'
+description: 'Farm Drupal 8 theme'
+package: 'Bootstrap'
+
+regions:
+  navbar_left: 'Navbar left'
+  navbar_right: 'Navbar right (Collapsible)'
+  welcome: 'Welcome'
+  about_us: 'About us'
+  gallery: 'Gallery'
+  content: 'Content'
+  offer: 'Offer'
+  features: 'Features'
+  testimonials: 'Testimonials'
+  extra_features: 'Extra features'
+  map: 'Map'
+  contact: 'Contact'
+  footer_right: 'Footer right'
+
+
+libraries:
+  - 'farm/global-styling'
+  - 'farm/bootstrap-scripts'
+
+
+
+

@@ -1,0 +1,39 @@
+// Newsletter.
+
+.mailchimp-signup-subscribe-form {
+  background-image: $newsletter_bg_image;
+  background-position: 0px -12px;
+  background-size: cover;
+  border-left: 0px;
+  border-right: 0px;
+  height: 230px;
+
+  form { position: relative; }
+
+    input.form-control {
+      position: relative;
+      outline: none;
+      margin-bottom: 3px;
+    }
+
+    .block-header {
+      background: none;
+      h4 {
+        border-bottom: 2px solid rgba(196, 196, 196, 0.13);
+      }
+    }
+
+    button.btn-primary {
+      width: 86%;
+      position: absolute;
+      bottom: -12px;
+      left: 24px;
+      background-color: $addlink_light_green;
+      border-color: $addlink_light_green;
+      &:hover, &:focus, &:active {
+        background-color: $addlink_dark_green;
+        border-color: $addlink_dark_green;
+        outline: none;
+      }
+    }
+}

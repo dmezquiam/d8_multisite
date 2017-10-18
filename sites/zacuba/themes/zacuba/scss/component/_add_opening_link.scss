@@ -1,0 +1,32 @@
+// ADD OPENING Link
+
+section#block-linktoaddopeningjob {
+  background-color: #8bb958;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+
+  div.field--name-field-add-opening {
+    float: left;
+    line-height: 4;
+    text-indent: 103px;
+
+      a {
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+      }
+  }
+
+  .plus {
+    display: block;
+    float: right;
+    padding: 18px;
+    background-color: #6c9344;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+
+
+

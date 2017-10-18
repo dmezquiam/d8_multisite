@@ -1,0 +1,60 @@
+// Block about us
+
+section#about-us {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  section {
+    text-align: center;
+    padding-top: 0px;
+    h2.block-title {
+      color: #f9680b;
+      font-size: 26px;
+      font-family: 'Playball', cursive;
+      margin-top: 10px;
+    }
+    .field--name-field-highlighted-title {
+      font-weight: 600;
+      line-height: 1.4;
+      margin: 10px 0 20px;
+      font-size: 30px;
+      &::after {
+        content: ' ';
+        height: 1px;
+        background-color: #e7e7e7;
+        width: 150px;
+        display: block;
+        position: relative;
+        margin: 40px auto 30px auto;
+      }
+    }
+    .field--name-field-description {
+      font-weight: 400;
+      line-height: 32px;
+      color: #967f76;
+      &::after {
+        content: ' ';
+        height: 1px;
+        background-color: #e7e7e7;
+        width: 150px;
+        display: block;
+        position: relative;
+        margin: 40px auto 30px auto;
+      }
+    }
+    .field--type-link {
+      margin-top: 50px;
+      a {
+        color: #fff;
+        background-color: #cdaa5e;
+        border-color: #cdaa5e;
+        border-radius: 3px;
+        padding: 16px 40px;
+        &:hover {
+          background-color: #bd9346;
+          border-color: #bd9346;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

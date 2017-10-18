@@ -1,0 +1,137 @@
+/*
+ *  View - All Opening.
+ *  View - Opening by Compnay.
+*/
+
+.all-jobs, .jobs-by-company, .view-flag-bookmark, .page-company-candidates {
+
+  .views-row {
+    overflow: hidden;
+    //margin-bottom: 15px;
+    border-bottom: $general_border_dashed;
+    padding: 25px;
+
+    .views-field {
+      float: left;
+    }
+
+    .gruopnames {
+      width: 40%;
+      overflow: hidden;
+      float: left;
+    }
+
+    .views-field-field-company-logo {
+      margin-right: 25px;
+    }
+
+    .views-field-title {
+      float: none;
+      a {
+        @include general_subtitles();
+        font-weight: bold;
+
+      }
+    }
+
+    .views-field-name {
+      margin-right: 30%;
+      a {
+        color: $general_subtitles_color;
+        text-transform: capitalize;
+        font-size: 16px;
+        opacity: 0.50;
+      }
+    }
+
+    .views-field-field-opening-typework { float: right; }
+
+    .views-field-nothing {
+      float: right;
+      line-height: 3;
+      padding-right: 15px;
+      font-size: 20px;
+      opacity: 0.30;
+    }
+
+    .views-field-link-flag {
+      float: right;
+      width: 23%;
+      a {
+        text-transform: capitalize;
+        font-size: 13px;
+        line-height: 4;
+        background: $company_resume_url_text_color;
+        color: $color_white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+
+// Page-company-candidates
+
+    .views-field-nid { display: none; }
+
+    .candidatesgroup {
+      overflow: hidden;
+      float: right;
+      .views-field-field-opening-typework {
+        float: left;
+        margin-right: 10rem;
+      }
+      .views-field-count {
+        margin-right: 5px;
+        background-color: $company_resume_url_text_color;
+        color: $color_white;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        padding-top: 3px;
+      }
+      .views-field-nothing {
+        font-size: 13px;
+        opacity: initial;
+        line-height: 2;
+        a { color: $general_subtitles_color; }
+      }
+    }
+
+// Page-company-candidates END //
+
+    .views-field-field-opening-location {
+      float: right;
+      width: 20%;
+      .field-content {
+        position: relative;
+        &:before {
+          @include icon("\e062");
+          margin-right: 5px;
+          position: absolute;
+          left: -25px;
+          top: 6px;
+        }
+      }
+    }
+    &:last-child { border: 0px }
+  }
+
+  .typeworks { @include typework_element(); }
+}
+
+.page-company-candidates .views-row .views-field-title { float: left; }
+
+.all-jobs .views-row:first-child { padding-top: 0px; }
+
+// Block jobs by company
+section#block-views-block-opening-block-page-by-author {
+  margin-top: 15px;
+  .form-group {
+    padding: 0px;
+    margin-bottom: 0px;
+    .form-item-sort-by {
+      label { top: 26px; }
+    }
+  }
+}
+

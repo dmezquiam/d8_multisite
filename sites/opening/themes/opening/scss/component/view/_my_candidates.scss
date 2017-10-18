@@ -1,0 +1,30 @@
+// My candidates block-view
+
+section.block-views-blockopening-block-page-all-candidate {
+
+  .file-link { width: auto; }
+
+  .views-element-container {
+    padding: 0px;
+    .page-all-candidates .view-content {
+      overflow:hidden;
+      .views-row {
+        //border-bottom: $general_border_dashed;
+        float: left;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+        .field--name-username {
+          text-transform: capitalize;
+          text-align: center;
+          a {
+            color: $general_subtitles_color;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+        .field--name-field-candidate-photo { display: inline-block; }
+      }
+    }
+  }
+}

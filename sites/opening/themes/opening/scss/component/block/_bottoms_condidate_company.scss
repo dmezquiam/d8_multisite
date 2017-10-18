@@ -1,0 +1,30 @@
+// Bottom candidate and company, in anonymous user page.
+
+#block-registercandidatecompanies {
+  float: left;
+  padding: 80px 25px;
+  width: 50%;
+  background-color: $cadi_compa_bgcolor;
+  border: $general_border;
+  border-left: 0px;
+  min-height: 312px;
+  h2 {
+    @include titles_h2(); //call mixin
+    padding: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    border:0px;
+    background: none;
+  }
+  ul > li a {
+    border-radius: 3px;
+    color: $cadi_compa_bgcolor;
+    text-align: center;
+    background: $cadi_compa_bgcolor_candidate_link;
+    margin-bottom: 15px;
+  }
+  ul > li:last-child > a { background: $cadi_compa_bgcolor_company_link; }
+}
+
+
+

@@ -1,0 +1,22 @@
+// Section map
+
+section#contact-info {
+   &::before {
+    z-index: 2;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    background-image: url('../images/separator.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  margin: 0px;
+  padding: 0px;
+  section {
+    margin: 0px;
+    padding: 0px;
+    .form-group { margin: 0px; }
+  }
+}

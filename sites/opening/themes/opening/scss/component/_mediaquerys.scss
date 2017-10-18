@@ -1,0 +1,286 @@
+// Media Querys
+
+@media screen and (max-width: 1200px) {
+  // Header
+  header .navbar-header { width: 20%; }
+
+  // all companies
+  .view-display-id-page_companies .view-content .views-row { margin: 9px; }
+
+  // newsletter block
+  .mailchimp-signup-subscribe-form button.btn-primary { width: 83%; }
+  .mailchimp-signup-subscribe-form {
+    background-position: -27px 0px;
+    background-repeat: no-repeat;
+    border: $general_border;
+  }
+
+  // Link add open
+  section#block-linktoaddopeningjob div.field--name-field-add-opening a { padding: 35px 100px; }
+
+  // bottom play in video
+  section.block-views-blockcompanies-block-company-resume .views-field-field-company-video:before,
+  section.block-views-blockcompanies-opening-resume .views-field-field-company-video:before {
+    font-size: 41px;
+    top: 51px;
+    left: 128px;
+  }
+
+   // Opening filter
+  .view-opening .view-filters form.views-exposed-form .form-item-title {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 0px;
+  }
+  .view-opening .view-filters form.views-exposed-form .form-item-location {
+    width: 100%;
+    .select-wrapper { width: 100%;}
+  }
+  .view-opening .view-filters form.views-exposed-form .form-item-location .select-wrapper select { width: 100%; }
+
+  // Featured companies block
+  section.block-views-blockcompanies-block-featured-companies {
+    .views-row {
+      text-align: center;
+      .views-field-field-company-logo {
+        display: inline-block;
+        float: none;
+        margin: 0px;
+      }
+    }
+  }
+
+  .view-flag-bookmark .views-row {
+    .views-field-link-flag {
+      width: 27%;
+      a { padding: 7px; }
+    }
+  }
+}
+
+//tablet
+@media screen and (max-width: 992px) {
+  // Header
+  header .navbar-header { width: 25%; }
+
+  // Newsletter
+  .mailchimp-signup-subscribe-form { background-image: none; }
+  .mailchimp-signup-subscribe-form button.btn-primary { width: 93%; }
+
+  // bottom play in video
+  section.block-views-blockcompanies-block-company-resume .views-field-field-company-video:before,
+  section.block-views-blockcompanies-opening-resume .views-field-field-company-video:before {
+    top: 150px;
+    left: 326px;
+  }
+
+  // Link add open
+  section#block-linktoaddopeningjob div.field--name-field-add-opening a { padding: 35px 304px; }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+      margin-top: 0px;
+  }
+}
+
+// mobile
+@media screen and (max-width: 768px) {
+  // class for login link y mobile.
+ .navbar_hidden {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    menu ul a {
+      height: 65px;
+      line-height: 3.4;
+      background: #e16143;
+      color: #fff;
+    }
+  }
+
+  // Block register
+  #block-registercandidatecompanies {
+    width: 100%;
+    border-left: 1px solid #c4c4c4;
+    border-top: 0px;
+  }
+
+  // form user login
+  form.user-login-form { width: 100%; }
+
+  // show account menu
+  #block-mainnavigation .navbar-nav > li:last-child { display: block;}
+  // hide block account
+  header .region-header-right { display: none; }
+
+  // Newsletter
+  .mailchimp-signup-subscribe-form { background-image: none; }
+  .mailchimp-signup-subscribe-form button.btn-primary {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 7px;
+    border-radius: 0px;
+  }
+
+  // Header
+  header .navbar-header { width: auto; }
+
+  // All companies
+  .view-display-id-page_companies .view-content .views-row {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  // type of work, opening view
+  .all-jobs .views-row .views-field-field-opening-typework,
+  .jobs-by-company .views-row .views-field-field-opening-typework {
+    float: left;
+  }
+
+  // Center candidates in company, page /candidates
+  .page-company-candidates {
+    .views-row {
+      text-align: center;
+      .views-field-title {
+        float: none;
+        text-align: center;
+      }
+      .candidatesgroup {
+        float: none;
+        display: inline-block;
+        .views-field-field-opening-typework { display: none; }
+        .views-field-nothing { padding: 0px; }
+      }
+    }
+  }
+
+  // location, opening view
+  .all-jobs .views-row .views-field-field-opening-location,
+  .jobs-by-company .views-row .views-field-field-opening-location {
+    display: none;
+ }
+
+  // center elements in all jobs views
+  .all-jobs, .jobs-by-company, .view-flag-bookmark {
+    .views-row {
+      text-align: center;
+       .views-field-field-company-logo {
+        float: none;
+        margin: 0px;
+        overflow: hidden;
+        display: inline-block;
+      }
+      .gruopnames {
+        width: 100%;
+        .views-field-name {
+          margin: 0px;
+          width: 100%;
+        }
+        .views-field-field-opening-typework {
+          width: 100%;
+          text-align: center;
+          .typeworks { display: inline-block; }
+        }
+      }
+    }
+  }
+
+  .node--type-opening .bs-region--bottom {
+    overflow: hidden;
+    padding-bottom: 0px;
+    .print__wrapper--pdf {
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .flag-bookmark {
+      float: none;
+      text-align: center;
+    }
+  }
+
+  section#block-linktoaddopeningjob div.field--name-field-add-opening a {
+    padding: 0px;
+    &:hover { background: none; }
+  }
+
+  .view-flag-bookmark .views-row .views-field-link-flag { width: 100%; }
+
+  .view-opening .view-filters form.views-exposed-form .form-item-typework > select {
+    padding-top: 0px;
+    option { margin-bottom: 5px; }
+  }
+
+  // Footer
+  footer {
+    section.block-social-media-links ul.social-media-links--platforms.horizontal {
+      float: none;
+    }
+    nav { // footer menu
+      ul {
+        display: block;
+      }
+    }
+
+    // footer element
+    .region-footer-center, .region-footer-right { float: none; }
+
+    .footer-logo {
+      text-align: center;
+      .region-footer-left { display: inline-block; }
+    }
+
+  }
+
+  section.block-views-blockcompanies-block-featured-companies .more-link {
+    float: none;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .user--view-mode-full .bs-region--main .field--type-address,
+  .user--view-mode-full .bs-region--main .field--name-field-company-employees,
+  .user--view-mode-full .bs-region--main .field--name-field-company-description,
+  .node--type-opening .bs-region--main > div {
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .user--view-mode-full .bs-region--main .field--label,
+  .user--view-mode-full .bs-region--main .field--item,
+  .node--type-opening .bs-region--main > div .field--label,
+  .node--type-opening .bs-region--main > div .field--item {
+    width: 100%;
+  }
+
+  .user--view-mode-full .bs-region--main > div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .node--type-opening .bs-region--top {
+    overflow: hidden;
+    text-align: center;
+    .field--name-node-title, .field--name-node-post-date {
+      width: 100%;
+    }
+    .field--name-field-opening-typework {
+      display: inline-block;
+      float: none;
+    }
+  }
+  .view-opening .view-filters form.views-exposed-form .form-item-sort-by { margin-bottom: 0px; }
+
+  #block-loginlink-2 a {
+    height: 65px;
+    line-height: 3.4;
+    background: $company_resume_url_text_color;
+    color: $color_white;
+  }
+}
+
+

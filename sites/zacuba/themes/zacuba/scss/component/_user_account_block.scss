@@ -1,0 +1,95 @@
+// User account block in header, right side.
+
+section.block-views-blockuser-account-block-user-account {
+  .form-group {
+    padding:0px;
+    overflow: hidden;
+    margin: 0px;
+    line-height: 4;
+    cursor: pointer;
+  }
+
+  // Reset styles
+  border: none;
+  border-radius: 0px;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-bottom: 0px;
+  .views-row > div {
+    float: left;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .views-row {
+    .views-field-field-company-logo,
+    .views-field-field-candidate-photo {
+      margin-right: 15px;
+    }
+    .views-field-nothing {margin-right: 5px;}
+    .views-field-name {margin-right: 10px;}
+  }
+}
+
+header.navbar {
+  padding: 15px 0 15px 0;
+  background: #fff;
+  border-bottom: 1px solid #cdcdcd;
+  .navbar-brand {
+    color: #000;
+    opacity: initial;
+  }
+  ul.navbar-right {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    list-style: none;
+    padding: 5px 0 7px;
+    position: absolute;
+    top: 10px;
+    left: -19px;
+    z-index: 100;
+    &:before {
+      border: 6px solid;
+      border-color: transparent;
+      border-bottom-color: #fff;
+      content: '';
+      position: absolute;
+      top: -11px;
+      left: 20px;
+      width: 0;
+      height: 0;
+      z-index: 10;
+    }
+    &:after {
+      border: 5px solid;
+      border-color: transparent;
+      border-bottom-color: #ccc;
+      content: '';
+      position: absolute;
+      top: -11px;
+      left: 21px;
+      width: 0;
+      height: 0;
+      z-index: 9;
+    }
+    li {
+      width: 100%;
+      a {
+        display: block;
+        color: #999;
+        padding: 10px 20px;
+        &:hover {
+          background: #f8f8f8;
+          border: 1px solid #e0e0e0;
+          border-left: none;
+          border-right: none;
+          color: #5a5a5a;
+          padding: 9px 20px;
+        }
+      }
+    }
+  }
+}

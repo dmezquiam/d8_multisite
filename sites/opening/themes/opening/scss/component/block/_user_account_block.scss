@@ -1,0 +1,71 @@
+// User account block in header, right side.
+
+section.block-views-blockuser-account-block-user-account {
+  .form-group {
+    padding:0px;
+    overflow: hidden;
+    margin: 0px;
+    line-height: 4;
+    cursor: pointer;
+  }
+
+  // Reset styles
+  @include block_reset_styles();
+
+  .views-row > div {
+    float: left;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .views-row {
+    overflow: hidden;
+    height: 65px;
+    line-height: 3.5;
+    padding: 8px;
+    .views-field-field-company-logo,
+    .views-field-field-candidate-photo {
+      margin-right: 15px;
+    }
+    .views-field-nothing { margin-right: 5px; }
+    .views-field-name {
+      margin-right: 4px;
+      font-weight: bold;
+      text-transform: capitalize;
+      &:after {
+        content: "!";
+        margin-left: -3px;
+      }
+    }
+  }
+}
+
+// Menu User profile (invisible-transparent)
+
+.region-header-right {
+  position: relative;
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    > ul {
+      width: 100%;
+      height: 100%;
+      > li {
+        width: 100%;
+        height: 100%;
+        > a {
+          background: none;
+          color: transparent;
+          width: 100%;
+          height: 100%;
+        }
+        > ul { top: 70px; }
+      }
+    }
+  }
+}
+
+

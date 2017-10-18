@@ -1,0 +1,13 @@
+{
+    "name": "proyectos/zacuba",
+    "description": "Zacuba project",
+    "require": {
+
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

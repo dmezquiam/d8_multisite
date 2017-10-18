@@ -1,0 +1,37 @@
+<footer>
+  <div class="row" >
+    <div class="container">
+
+      <!-- Footer left -->
+      {% if page.footer_left %}
+        <div class="footer-logo col-md-2">
+          {% block footer_left %}
+            {{ page.footer_left }}
+          {% endblock %}
+        </div>
+      {% endif %}
+      <!-- /End Footer left -->
+
+      <!-- Footer center -->
+      {% if page.footer_center %}
+        <div class="footer-menu col-md-6">
+          {% block footer_center %}
+             {{ page.footer_center }}
+          {% endblock %}
+        </div>
+      {% endif %}
+      <!-- /End Footer center -->
+
+      <!-- Footer right -->
+      {% if page.footer_right %}
+        <div class="social-network col-md-4">
+          {% block footer_right %}
+            {{ page.footer_right }}
+          {% endblock %}
+        </div>
+      {% endif %}
+      <!-- /End Footer right -->
+
+    </div>
+  </div>
+</footer>

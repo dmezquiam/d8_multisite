@@ -1,0 +1,42 @@
+// Social Network
+
+section.block-social-media-links {
+  ul.social-media-links--platforms.horizontal {
+    margin-top: 16px;
+    li {
+      padding-top: 10px;
+      span.fa-2x { // Icons general styles
+        font-size: 1em;
+        border-radius: 50%;
+        padding: 15px;
+        color: #ffe8da;
+        border: 1px solid #a6ce37;
+        background-color: transparent;
+        &:hover {
+          border: 1px solid #fff;
+        }
+      }
+
+      span.fa-facebook { // to facebook icon
+        padding-left: 21px;
+        padding-right: 21px;
+      }
+
+      span.fa-twitter { // to twitter icon
+        padding-left: 18px;
+        padding-right: 17px;
+      }
+
+      span.fa-google-plus { // to google plus icon
+        padding-left: 13px;
+        padding-right: 15px;
+      }
+
+      span.fa-instagram { // to instagram icon
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+    }
+  }
+}
+

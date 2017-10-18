@@ -1,0 +1,10 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      {% block footer %}
+        {{ page.footer }}
+      {% endblock %}
+      <p>© Copyright {{ now|date('Y') }} <span>CloudSoft</span>. Designed by Spinetta.</p>
+      </div>
+  </div>
+</footer>

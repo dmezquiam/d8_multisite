@@ -1,0 +1,52 @@
+/*
+*
+* Header and Footer styles.
+*
+* Find block user account in _user_account_block file.
+*
+* Find block social in _social_network file.
+*
+*/
+
+.navbar { // Header general styles
+  background: $footer_header-background;
+  border-bottom: $footer_header-border;
+  // Link main menu on header
+  .navbar-nav > li > a {
+    height: 65px;
+    line-height: 2.5;
+    background: $color_white;
+    &:focus { background-color: $color_white; }
+    &:hover {
+      border-bottom: $navbar_menu_link;
+      background-color: $navbar_menu_bg_color;
+    }
+  }
+}
+
+footer {
+  // footer general styles
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: $footer_header-background;
+  border-top: $footer_header-border;
+
+    .nav > li > a {
+      &:hover, &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    nav { // footer menu
+      ul {
+        display: inline-flex;
+      }
+    }
+
+    .footer-menu, .social-network {
+        text-align: center;
+    }
+}
+
+

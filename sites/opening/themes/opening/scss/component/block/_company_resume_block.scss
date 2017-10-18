@@ -1,0 +1,67 @@
+// Company resume block
+
+section.block-views-blockcompanies-block-company-resume,
+section.block-views-blockcompanies-opening-resume {
+
+  .form-group { padding: 0px; margin-bottom: 0px; }
+
+  .views-field-name h4 {
+    @include titles_h2(); //call mixin
+  }
+
+  .views-field-field-company-logo-1 { padding: 25px; }
+
+  .views-field-field-company-location,
+  .views-field-field-company-website {
+    padding: 0px 25px 25px 25px;
+    p { margin: 0px; }
+  }
+
+  .views-field-field-company-location {
+    &:before {
+      @include icon("\e062"); //call mixin
+    }
+  }
+
+  .views-field-field-company-website {
+    .field-content { line-height: 2; }
+    &:before {
+      @include icon("\e144"); //call mixin
+    }
+  }
+
+  .views-field-field-company-website a {
+    color: $company_resume_url_text_color;
+  }
+
+  .views-field-field-company-description {
+    padding: 0px 25px 25px 25px;
+    p { margin: 0px; }
+  }
+
+  .views-field-field-company-phone,
+  .views-field-mail {
+    .field-content { line-height: 2; }
+    padding: 0px 25px 25px 25px;
+    background: $company_resume_bgcolor_bottom;
+    border-top: $general_border;
+  }
+
+  .views-field-field-company-phone {
+    padding-top: 25px;
+    &:before {
+      @include icon("\e183"); //call mixin
+    }
+  }
+
+  .views-field-mail {
+    border: 0px;
+    border-bottom: $general_border;
+    &:before {
+      @include icon("\2709"); //call mixin
+    }
+  }
+
+  .views-field-field-company-video img { width: 100%; cursor: pointer; }
+}
+

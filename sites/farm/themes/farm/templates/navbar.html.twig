@@ -1,0 +1,42 @@
+{# Navbar  'navbar-fixed-top', #}
+{% block navbar %}
+  {%
+    set navbar_classes = [
+      'navbar',
+      theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
+    ]
+  %}
+
+  <header role="navigation">
+    <nav{{ navbar_attributes.addClass(navbar_classes) }}>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-3 navbar-header">
+              {{ page.navbar_left }}
+              {# .btn-navbar is used as the toggle for collapsed navbar content #}
+              {% if page.navbar_right %}
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              {% endif %}
+            </div>
+
+            {# Navigation (collapsible) #}
+            {% if page.navbar_right %}
+              <div id="navbar-collapse" class="navbar-collapse collapse">
+                <div class="pull-right">
+                  {{ page.navbar_right }}
+                </div>
+              </div>
+            {% endif %}
+            {% if not navbar_attributes.hasClass(container) %}
+        </div>
+      </div>
+    </nav>
+      {% endif %}
+  </header>
+
+{% endblock %}

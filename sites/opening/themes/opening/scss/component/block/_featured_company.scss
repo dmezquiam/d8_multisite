@@ -1,0 +1,40 @@
+// Featured companies block
+
+section.block-views-blockcompanies-block-featured-companies {
+
+  .form-group { padding: 0px; }
+
+  .views-row {
+    overflow: hidden;
+    border-bottom: $general_border_dashed;
+    padding: 25px;
+
+    .views-field-field-company-logo {
+      float: left;
+      margin-right: 25px;
+    }
+    .views-field-name a {
+      @include general_subtitles(); //call mixin
+      text-transform: capitalize;
+    }
+    .views-field-field-company-website a { color : $company_resume_url_text_color; }
+
+    &:last-child { margin-bottom: 25px; }
+  }
+
+ .more-link {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 23px;
+    a {
+      color: $color_white;
+      background: $addlink_light_green;
+      padding: 10px;
+      border-radius: 5px;
+      &:hover {
+        background: $addlink_dark_green;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,213 @@
+// General styles.
+
+// Reset body
+body {
+  font-size: 13px;
+  padding-top: 70px;
+}
+
+// class for login link y mobile.
+.navbar_hidden { display:none; }
+
+.region-content { overflow: hidden; }
+
+#block-mainnavigation .navbar-nav > li:last-child {
+  display: none;
+}
+
+// all input
+input.form-control:focus,
+select.form-control:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+// Border top pager.
+.pager-nav { border-top: $general_border_dashed; }
+
+// Pagination
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background: #f9f9f9;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #cdcdcd;
+  padding: 15px 5px 16px;
+  margin-right: 8px;
+  float: left;
+  width: 55px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background-color: #fff;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:hover {
+  cursor: default;
+}
+
+// Reset bootstap styles
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background: none;
+}
+
+// Background page
+#page-wrapper {
+  background-color: $wrapper-background-color;
+}
+
+// styles for crossbrowser
+input[type="file"] {
+  height: auto;
+}
+
+// Menu elements
+.nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  color: $menu-color;
+  &:hover, &:focus {
+    background-color: $menu-hover;
+  }
+}
+
+// Logo
+.navbar-btn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 65px;
+}
+
+// Dropdown menu
+.dropdown-menu > li > a {
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+// Site name General
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #3d4346;
+  font-weight: bold;
+  opacity: 0.25;
+  padding: 1px 0 0 10px;
+  line-height: 65px;
+}
+
+// menu active
+.dropdown-menu > .active > a {
+  color: $color_black;
+  background-color: $color_white;
+}
+
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+
+
+
+// Site name - Header
+.navbar-header a.navbar-brand {
+  color: #000;
+  opacity: initial;
+}
+
+// General blocks
+.general-block {
+  border: $block-border;
+  background-color: $block-background-color;
+  //box-shadow: $block-box-shadow;
+  //-webkit-box-shadow: $block-webkit-box-shadow;
+  margin-bottom: 15px;
+
+    .form-group {
+      padding: 25px;
+    }
+}
+
+// General blocks header
+.block-header {
+  background-color: $block-header;
+  h4 {
+    margin: 0px;
+    padding: 25px;
+    border-bottom: 1px solid #c4c4c4;
+    text-transform: uppercase;
+    color: #566266;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+// Login bottom for anonymous users, in navbar.
+.region-header-right {
+  nav#block-loginlink {
+    z-index: 100;
+    position: relative;
+    overflow: hidden;
+    ul a {
+      height: 65px;
+      line-height: 3.4;
+      background: #e16143;
+      color: #fff;
+    }
+  }
+}
+
+// Register form user
+.user-register-form {
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+}
+
+// modal windows applay and remove job.
+.modal-content {
+  .modal-body {
+    form > div {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

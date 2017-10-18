@@ -1,0 +1,26 @@
+// Newsletter.
+
+.mailchimp-signup-subscribe-form {
+  background: url(../images/mail-bg.png);
+  background-position: 0px -25px;
+  background-size: cover;
+  border-left: 0px;
+  border-right: 0px;
+
+    input.form-control {
+      border: 1px solid #39b5cf;
+      border-radius: 4px;
+      position: relative;
+      color: #566266;
+      padding: 13px;
+      outline: none;
+      margin-bottom: 3px;
+    }
+
+    .block-header {
+      background: none;
+      h4 {
+        border-bottom: 2px solid rgba(196, 196, 196, 0.13);
+      }
+    }
+}

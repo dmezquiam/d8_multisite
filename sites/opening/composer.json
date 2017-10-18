@@ -1,0 +1,13 @@
+{
+    "name": "spinetta/opening",
+    "description": "Opening project",
+    "require": {
+
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

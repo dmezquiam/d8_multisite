@@ -1,0 +1,150 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../includes/bootstrap/assets/fonts/bootstrap/';
+
+// ----------------------------------------------------- //
+
+// White Color
+$color_white: #fff;
+
+// Black color
+$color_black: #000;
+
+// Red color
+$color_red: red;
+
+// Background page
+$wrapper-background-color: #f9f9f9;
+
+// Color bootstrap glyphicons
+$color_glyphicons: #a8abb0;
+
+// General border in the site.
+$general_border: 1px solid #c4c4c4;
+
+// Color General border.
+$color_general_border: #c4c4c4;
+
+// General border dashed
+$general_border_dashed: 1px dashed #cdcdcd;
+
+// General subtitles to blocks, views...
+$general_subtitles_color: #566266;
+$general_subtitles_font_size: 16px;
+
+// Background color type work
+$type_work_bgcolor: #32c1b2;
+
+// ----------------------------------------------------- //
+
+// General titles in block.
+
+// color in blocks titles, h4.
+$titles_block_text_color: #566266;
+
+// backgound color in blocks titles, h4.
+$titles_block_bgcolor: #f1f1f1;
+
+// Box-shadow in block titles
+$box-shadow: 0 1px 3px rgba( 0, 0, 0, .1 );
+$webkit-box-shadow: 0 1px 3px rgba( 0, 0, 0, .1 );
+
+// ----------------------------------------------------- //
+
+// General blocks, this styles are from .general-block classes
+$block-border: 1px solid #cdcdcd;
+$block-header: #f1f1f1;
+$block-background-color: #fff;
+$block-box-shadow: 1px 1px 2px rgba( 100, 100, 100, .1 ), -1px -1px 2px rgba( 100, 100, 100, .1 );
+$block-webkit-box-shadow: 1px 1px 2px rgba( 100, 100, 100, .1 ), -1px -1px 2px rgba( 100, 100, 100, .1 );
+
+// ----------------------------------------------------- //
+
+// Social Network
+
+$social_network_text_color: #fff; // icon inside
+$social_network_bg_color: #3b4346; // element background
+
+// ----------------------------------------------------- //
+
+// Menu nav > li > a
+$menu-color: #333333; // tag a in menu
+$menu-hover: transparent; // tag a in menu in hover
+
+// ----------------------------------------------------- //
+
+// Footer - Header
+
+// footer and header background color
+$footer_header-background: #fff;
+
+// footer and header border top-bottom
+$footer_header-border: 1px solid #cdcdcd;
+
+// ----------------------------------------------------- //
+
+// ADD OPENING Link Block
+
+//Color light green in block, Add opening.
+$addlink_light_green: #8bb958;
+
+//Color dark green in block, Add opening.
+$addlink_dark_green: #6c9344;
+
+// Color to link 'a' and '+' en add opening link.
+$addlink_textcolor: #fff;
+
+// ----------------------------------------------------- //
+
+// Bottom candidate and company, in anonymous user page.
+
+// Background color un block, register user.
+$cadi_compa_bgcolor: #fff;
+
+// Backgound candidate bottom.
+$cadi_compa_bgcolor_candidate_link: #32c1b2;
+
+// Backgound company bottom.
+$cadi_compa_bgcolor_company_link: #5886ba;
+
+// ----------------------------------------------------- //
+
+// Company resume block
+
+// Company link url. used in featured company too.
+$company_resume_url_text_color: #e16143;
+
+// Backgroung color of phone and email.
+$company_resume_bgcolor_bottom: #f1f1f1;
+
+// ----------------------------------------------------- //
+
+// Newsletter block
+
+$newsletter_bg_image: url(../images/mail-bg.png);
+
+// ----------------------------------------------------- //
+
+// Navbar
+
+$navbar_menu_link: 4px solid #3b4346;
+$navbar_menu_bg_color: #e7e7e7;
+
+// ----------------------------------------------------- //
+
+// Filters
+
+$bg_color_filter: #3b4346;
+
+// ----------------------------------------------------- //

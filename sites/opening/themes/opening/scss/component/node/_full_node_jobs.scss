@@ -1,0 +1,102 @@
+// Full node Jobs
+.node--type-opening {
+  background-color: $color_white;
+  border: $general_border;
+  margin: 0px;
+
+  .bs-region--top {
+    background: $titles_block_bgcolor;
+    border-bottom: $general_border;
+    box-shadow: $box-shadow;
+    -webkit-box-shadow: -$webkit-box-shadow;
+    position: relative;
+    padding: 20px 15px;
+
+    .field--name-node-title {
+      float: left;
+      margin-right: 3%;
+      h4 {
+        margin: 0px;
+        text-transform: uppercase;
+        color: $titles_block_text_color;;
+        font-weight: bold;
+      }
+    }
+
+    .field--name-field-opening-typework {
+      float: left;
+      border-radius: 3px;
+      color: $color_white;
+      text-align: center;
+      padding: 0px 7px;
+      background: $type_work_bgcolor;
+      position: relative;
+    }
+
+    .field--name-node-post-date {
+      float: right;
+      color: $company_resume_url_text_color;
+      &:before {
+        content: "posted on";
+        margin-right: 5px;
+        color: $color_glyphicons;
+      }
+    }
+  }
+
+  .bs-region--main {
+    padding: 0px;
+    > div {
+      border-bottom: $general_border_dashed;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      padding: 0px 15px;
+
+      .field--label {
+        float: left;
+        width: 40%;
+      }
+
+      .field--item {
+        float: right;
+        width: 60%;
+      }
+    }
+
+    .field--name-field-opening-conditions { border: none; }
+  }
+
+  .bs-region--bottom {
+    background: $titles_block_bgcolor;
+    border-top: $general_border;
+    box-shadow: $box-shadow;
+    -webkit-box-shadow: -$webkit-box-shadow;
+    position: relative;
+    padding: 20px 15px;
+
+    .print__wrapper--pdf {
+      margin: 0px;
+      float: left;
+      &:before {
+        content: "\e045";
+        font-family: "Glyphicons Halflings";
+        margin-right: 5px;
+        color: $color_glyphicons;
+      }
+    }
+
+    .flag-bookmark {
+      float: right;
+      a {
+        background: $company_resume_url_text_color;
+        color: $color_white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+
+    a { color: $color_glyphicons; }
+  }
+}
+

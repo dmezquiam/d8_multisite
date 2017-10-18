@@ -1,0 +1,51 @@
+/*
+ *  VIEW FEATURES
+*/
+
+.features-container {
+  background: $bg-section1;
+  text-align: center;
+
+  .region-features {
+    padding: 80px 0;
+  }
+
+  #block-views-block-features-block-features {
+    > h2 {
+      font-size: 3.6rem;
+      margin-top: 0;
+      color: #474d56;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .view-header {
+      color: $color-body;
+      line-height: 1.5;
+    }
+
+    .view-content .views-row {
+      margin-top: 50px;
+
+      .field--name-field-imagen {
+        display: inline-block;
+      }
+
+      .field--name-node-title h3 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: 10px 0;
+        a {
+          color: #666;
+        }
+      }
+
+      .field--name-body {
+        p {
+          color: $color-body;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

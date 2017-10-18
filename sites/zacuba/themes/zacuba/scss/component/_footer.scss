@@ -1,0 +1,26 @@
+// Footer.
+
+footer {
+  // footer general styles
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: $footer-background;
+  border-top: $footer-border-top;
+
+    .nav > li > a {
+      &:hover, &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    nav { // footer menu
+      ul {
+        display: inline-flex;
+      }
+    }
+
+    .footer-menu, .social-network {
+        text-align: center;
+    }
+}

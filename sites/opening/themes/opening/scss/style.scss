@@ -1,0 +1,56 @@
+// Variables.
+@import "variables";
+
+// Bootstrap Framework.
+@import '../includes/bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import "component/default/alert";
+@import "component/default/ajax";
+@import "component/default/field";
+@import "component/default/file";
+@import "component/default/filter";
+@import "component/default/form";
+@import "component/default/icon";
+@import "component/default/navbar";
+@import "component/default/node";
+@import "component/default/panel";
+@import "component/default/progress-bar";
+@import "component/default/table-drag";
+@import "component/default/tabs";
+@import "component/default/toolbar";
+@import "component/default/jquery-ui/autocomplete";
+
+// Mixins
+@import "mixins.scss";
+
+// Custom overrides.
+@import "general";
+@import "component/header_footer";
+
+// Blocks
+@import "component/block/social_network";
+@import "component/block/newsletter";
+@import "component/block/featured_company";
+@import "component/block/add_opening_link";
+@import "component/block/user_account_block";
+@import "component/block/block_banner";
+@import "component/block/company_resume_block";
+@import "component/block/login_form";
+@import "component/block/bottoms_condidate_company";
+
+// Views
+@import "component/view/opening_jobs";
+@import "component/view/opening_jobs_filter";
+@import "component/view/all_companies";
+@import "component/view/my_candidates";
+
+// Nodes
+@import "component/node/full_node_company";
+@import "component/node/full_node_jobs";
+
+// Media querys
+@import "component/mediaquerys";
+
+
+

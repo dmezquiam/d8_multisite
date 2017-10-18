@@ -1,0 +1,36 @@
+/*
+ *  BLOCK FREE TRIAL
+*/
+
+.free_trial-container {
+  #block-startfreeperiodtime {
+    width: 100%;
+    background: $bg-color2;
+    margin-top: 20px;
+    padding: 20px;
+    float: left;
+
+      h2 {
+        color: #fff;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 7px 0 0
+      }
+
+      .field--name-field-bottom-trial {
+        a {
+          text-transform: uppercase;
+          padding: 0 20px;
+          text-align: center;
+          display: inline-block;
+          border-radius: 10px;
+          border-style: none;
+          background: #fff;
+          color: #585858;
+          line-height: 45px;
+          float: right;
+        }
+      }
+  }
+}

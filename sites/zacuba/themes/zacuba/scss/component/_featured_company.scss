@@ -1,0 +1,31 @@
+// Featured companies block
+
+$fc-color-a: #566266;
+
+section.block-views-blockcompanies-block-featured-companies {
+  .views-row {
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #cdcdcd;
+    padding-bottom: 25px;
+
+    .views-field-field-company-logo {
+      float: left;
+      margin-right: 25px;
+    }
+    .views-field-name a {
+      color: $fc-color-a;
+      text-transform: capitalize;
+      font-size: 16px;
+    }
+  }
+
+ .more-link {
+    float: right;
+    padding-top: 0px;
+    padding-right: 0px;
+      a {
+        color: $fc-color-a;
+      }
+  }
+}

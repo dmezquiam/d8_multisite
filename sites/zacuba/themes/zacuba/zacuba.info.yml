@@ -1,0 +1,24 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Zacuba'
+description: 'Tema Zacuba'
+package: 'Zacuba'
+
+regions:
+  header_left: 'Header left'
+  header_center: 'Header center (Collapsible)'
+  header_right: 'Header right (Collapsible)'
+  banner: 'Banner'
+  search_filter: 'Search filter'
+  messages: 'Messages'
+  content: 'Content'
+  sidebar_second: 'Secondary'
+  footer_left: 'Footer left'
+  footer_center: Footer center
+  footer_right: 'Footer right'
+
+libraries:
+  - 'zacuba/global-styling'
+  - 'zacuba/bootstrap-scripts'

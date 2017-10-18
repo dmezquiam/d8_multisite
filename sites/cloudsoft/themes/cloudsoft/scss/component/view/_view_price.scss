@@ -1,0 +1,95 @@
+/*
+ *  VIEW PRICE
+*/
+
+.price-container {
+  padding-top: 80px;
+  text-align: center;
+
+  .block-views-blockprice-block-price {
+    > h2 {
+      font-size: 3.6rem;
+      margin-top: 0;
+      color: #474d56;
+      text-align: center;
+      font-weight: normal;
+    }
+
+    .view-header {
+      color: $color-body;
+      line-height: 1.5;
+    }
+
+   .view-content .views-row {
+      margin: 40px 0 0;
+      box-shadow: 0px 100px 0 0 #344765 inset;
+      -webkit-box-shadow: 0px 100px 0 0 #344765 inset;
+      background: #F5F5F5;
+
+      h2 {
+        line-height: 100px;
+        font-size: 36px;
+        font-weight: normal;
+        margin: 0px;
+        color: #fff;
+      }
+
+      &:first-child {
+        box-shadow: 0px 100px 0 0 #17c4bb inset;
+        -webkit-box-shadow: 0px 100px 0 0 #17c4bb inset;
+        background: #EFEFEF;
+      }
+
+      &:last-child {
+        box-shadow: 0px 100px 0 0 #3b5072 inset;
+        -webkit-box-shadow: 0px 100px 0 0 #3b5072 inset;
+        background: #EFEFEF;
+      }
+
+      .group-header {
+        margin-bottom: 15px;
+      }
+
+      .group-left {
+        width: 40%;
+      }
+
+      .group-right {
+        width: 60%;
+      }
+
+      .field--name-field-price {
+        font-size: 72px;
+        color: #666;
+        float: left;
+      }
+
+      .field--name-field-currency {
+        float: right;
+        font-size: 36px;
+        color: #666;
+      }
+
+      .field--name-field-frecuency {
+        color: #17c4bb;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .field--name-field-info {
+        margin: 0;
+        padding: 15px 0 30px;
+        width: 100%;
+
+        > div {
+          border-top: 1px solid #c3c3c3;
+          color: #8e8e8e;
+          font-size: 16px;
+          line-height: 60px;
+          list-style: outside none none;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

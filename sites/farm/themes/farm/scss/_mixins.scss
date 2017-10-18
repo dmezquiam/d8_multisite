@@ -1,0 +1,11 @@
+// Mixins
+
+// To change the Bootstrap Glyphicons.
+@mixin icon($value) {
+  content: $value;
+  font-family: "Glyphicons Halflings";
+  margin-right: 10px;
+  color: $color_glyphicons;
+  font-size: 18px;
+  float: left;
+}

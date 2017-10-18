@@ -1,0 +1,86 @@
+// Media Querys
+
+@media (max-width: 1200px) {
+  section#offer {
+    section.block-views-blockoffer-block-offer {
+      .view-content {
+        .views-row {
+          .views-field-field-offer-image {
+            img { width: 280px; }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  section#features-list {
+   .col-lg-4 {
+    width: 31.33333%;
+   }
+  }
+}
+
+@media (min-width: 992px) {
+  section#features-list {
+   .col-md-4 {
+    width: 31.33333%;
+   }
+  }
+}
+
+@media (max-width: 992px) {
+  #navbar-collapse {
+    position: absolute;
+    width: 100%;
+    top: 61px;
+    left: 0px;
+    border: 0px;
+    margin-top: 9px;
+    background-color: rgba(8, 3, 1, 0.95);
+    text-align: center;
+    float: none;
+    .pull-right { float: none !important; }
+  }
+
+  section#offer {
+    section.block-views-blockoffer-block-offer {
+      .view-content {
+        .views-row {
+          .views-field-field-offer-image {
+            img { width: 220px; }
+          }
+        }
+      }
+    }
+  }
+
+  section#features-list {
+    .col-sm-6 {
+      width: 45%;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  section#offer {
+    section.block-views-blockoffer-block-offer {
+      .view-content {
+        .views-row {
+          width: 100%;
+          .views-field-field-offer-image {
+            img { width: 100%; }
+          }
+        }
+      }
+    }
+  }
+  section#features-list {
+    .col-xs-12 {
+      width: 100%;
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+// Change the directory to save the bower components in this file
+// By default are saved in bower_components folder
+
+/*
+{
+    "directory": "libraries",
+    "json": "bower.json"
+}
+*/
